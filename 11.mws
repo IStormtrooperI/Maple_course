@@ -1,0 +1,306 @@
+{VERSION 2 3 "IBM INTEL NT" "2.3" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 
+0 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" -1 2 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 0 }1 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Warning" 2 7 1 {CSTYLE "" -1 -1 "" 0 
+1 0 0 255 1 0 0 0 0 0 0 1 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 
+0 0 0 0 -1 0 }{PSTYLE "Maple Plot" 0 13 1 {CSTYLE "" -1 -1 "" 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "f:=x->x^2;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"fG:6#%\"xG6\"6$%)operatorG%&arrowGF(*$9$\"\"#F(F(" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "with(student):" }}{PARA 
+7 "" 1 "" {TEXT -1 29 "Warning, new definition for D" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 12 "with(plots):" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 61 "Lplot:=leftbox(f(x),x=1..3,50,xtickmarks=3,title=`l
+eft sum`):" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 63 "Rplot:=rightbox(f(x),
+x=1..3,50,xtickmarks=3,title=`right sum`):" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 30 "display(array([Lplot,Rplot]));" }}{PARA 13 "" 1 "" 
+{INLPLOT "6jr-%'CURVESG6&7S7$$\"+++++@!\")$!+++++q!\"*7$$\"+x[BR@F*$!+
+S=#=#oF-7$$\"+NHPt@F*$!+g_ggmF-7$$\"+]Zw6AF*$!+9\\UskF-7$$\"+_5T]AF*$!
++#)fkviF-7$$\"+uO())G#F*$!+9$zC2'F-7$$\"+\\M`CBF*$!+99fxeF-7$$\"+zqXhB
+F*$!+%*)y\"pcF-7$$\"+_Nk*R#F*$!+=kbYaF-7$$\"+fvqPCF*$!+w9[<_F-7$$\"+q5
+'oZ#F*$!+9ZQu\\F-7$$\"+.vM6DF*$!+)Q%*Rv%F-7$$\"+f5<]DF*$!+Q&f))\\%F-7$
+$\"+GS:*e#F*$!+sy=NUF-7$$\"+U8sEEF*$!+_1*R(RF-7$$\"+ig$3m#F*$!+'\\g2t$
+F-7$$\"+k<S,FF*$!+gh0MMF-7$$\"+MiwNFF*$!+-3NwJF-7$$\"+#GSdx#F*$!+%*3Cp
+GF-7$$\"+*3C6\"GF*$!+mF\"3f#F-7$$\"+Kd%*\\GF*$!+]*>#yAF-7$$\"+=J\"p)GF
+*$!+M)RO(>F-7$$\"+1Z[DHF*$!+=#['[;F-7$$\"+la!4'HF*$!+#>LPM\"F-7$$\"+R:
+6**HF*$!+%[&*y+\"F-7$$\"+7pzQIF*$!*??U^'F-7$$\"+YJMtIF*$!*7*yZLF-7$$\"
++CSl5JF*$\"))>CQ\"F-7$$\"+8)*>\\JF*$\"*m\\=\"QF-7$$\"+[$4p=$F*$\"*OfnZ
+(F-7$$\"+g_RBKF*$\"+g*e*36F-7$$\"+Zm!RE$F*$\"+qS!y^\"F-7$$\"+HzI+LF*$
+\"+gC3#*=F-7$$\"+oS<RLF*$\"+Iw#*)H#F-7$$\"+mDRuLF*$\"+q@.uEF-7$$\"+(o&
+*GT$F*$\"+!=H64$F-7$$\"+BT7\\MF*$\"+?*p-\\$F-7$$\"+xK*p[$F*$\"+IaT9RF-
+7$$\"+)H<S_$F*$\"+I<%fL%F-7$$\"+:!yFc$F*$\"+5P\\%y%F-7$$\"+%>4,g$F*$\"
+++k^B_F-7$$\"+;dGQOF*$\"++\")fzcF-7$$\"+<h9wOF*$\"+S8,RhF-7$$\"+$*e$4r
+$F*$\"+!30uc'F-7$$\"+.*33v$F*$\"+]LulqF-7$$\"+)zrky$F*$\"+qW6=vF-7$$\"
++#)e\\CQF*$\"+gYN2!)F-7$$\"+%y*)3'QF*$\"+gsI#[)F-7$$\"+++++RF*$\"+++++
+!*F--%'COLOURG6&%$RGBG$\"*++++\"F*\"\"!F^[l-%&STYLEG6#%%LINEG-%*THICKN
+ESSG6#\"\"#-%)POLYGONSG6$7&7$F($!+++++!*F-7$F($!+++!o$oF-7$$\"++++O@F*
+F_\\l7$Fb\\lF\\\\l-%&COLORG6&F[[l$\"\"(!\"\"$\"\"*Fj\\lFh\\l-Fh[l6$7&F
+d\\l7$Fb\\l$!+++?nmF-7$$\"++++s@F*Fa]l7$Fd]lF\\\\lFe\\l-Fh[l6$7&Ff]l7$
+Fd]l$!+++?\"\\'F-7$$\"++++3AF*F[^l7$F^^lF\\\\lFe\\l-Fh[l6$7&F`^l7$F^^l
+$!+++!)3jF-7$$\"++++WAF*Fe^l7$Fh^lF\\\\lFe\\l-Fh[l6$7&Fj^l7$Fh^l$!++++
+?hF-7$$\"++++!G#F*F__l7$Fb_lF\\\\lFe\\l-Fh[l6$7&Fd_l7$Fb_l$!+++![#fF-7
+$$\"++++;BF*Fi_l7$F\\`lF\\\\lFe\\l-Fh[l6$7&F^`l7$F\\`l$!+++?BdF-7$$\"+
++++_BF*Fc`l7$Ff`lF\\\\lFe\\l-Fh[l6$7&Fh`l7$Ff`l$!+++?:bF-7$$\"++++)Q#F
+*F]al7$F`alF\\\\lFe\\l-Fh[l6$7&Fbal7$F`al$!+++!3I&F-7$$\"++++CCF*Fgal7
+$FjalF\\\\lFe\\l-Fh[l6$7&F\\bl7$Fjal$!++++!3&F-7$$\"++++gCF*Fabl7$Fdbl
+F\\\\lFe\\l-Fh[l6$7&Ffbl7$Fdbl$!+++!G&[F-7$$\"++++'\\#F*F[cl7$F^clF\\
+\\lFe\\l-Fh[l6$7&F`cl7$F^cl$!+++?>YF-7$$\"++++KDF*Fecl7$FhclF\\\\lFe\\
+l-Fh[l6$7&Fjcl7$Fhcl$!+++?zVF-7$$\"++++oDF*F_dl7$FbdlF\\\\lFe\\l-Fh[l6
+$7&Fddl7$Fbdl$!+++!G8%F-7$$\"++++/EF*Fidl7$F\\elF\\\\lFe\\l-Fh[l6$7&F^
+el7$F\\el$!++++!)QF-7$$\"++++SEF*Fcel7$FfelF\\\\lFe\\l-Fh[l6$7&Fhel7$F
+fel$!+++!3i$F-7$$\"++++wEF*F]fl7$F`flF\\\\lFe\\l-Fh[l6$7&Fbfl7$F`fl$!+
+++?bLF-7$$\"++++7FF*Fgfl7$FjflF\\\\lFe\\l-Fh[l6$7&F\\gl7$Fjfl$!+++?$3$
+F-7$$\"++++[FF*Fagl7$FdglF\\\\lFe\\l-Fh[l6$7&Ffgl7$Fdgl$!+++![!GF-7$$
+\"++++%y#F*F[hl7$F^hlF\\\\lFe\\l-Fh[l6$7&F`hl7$F^hl$!++++?DF-7$$\"++++
+?GF*Fehl7$FhhlF\\\\lFe\\l-Fh[l6$7&Fjhl7$Fhhl$!+++!)GAF-7$$\"++++cGF*F_
+il7$FbilF\\\\lFe\\l-Fh[l6$7&Fdil7$Fbil$!+++?J>F-7$$\"++++#*GF*Fiil7$F
+\\jlF\\\\lFe\\l-Fh[l6$7&F^jl7$F\\jl$!+++?F;F-7$$\"++++GHF*Fcjl7$FfjlF
+\\\\lFe\\l-Fh[l6$7&Fhjl7$Ffjl$!+++!oJ\"F-7$$\"++++kHF*F][m7$F`[mF\\\\l
+Fe\\l-Fh[l6$7&Fb[m7$F`[m$!+++++5F-7$$\"+++++IF*Fg[m7$Fj[mF\\\\lFe\\l-F
+h[l6$7&F\\\\m7$Fj[m$!*++!onF-7$$\"++++OIF*Fa\\m7$Fd\\mF\\\\lFe\\l-Fh[l
+6$7&Ff\\m7$Fd\\m$!*++?Z$F-7$$\"++++sIF*F[]m7$F^]mF\\\\lFe\\l-Fh[l6$7&F
+`]m7$F^]m$!)++?6F-7$$\"++++3JF*Fe]m7$Fh]mF\\\\lFe\\l-Fh[l6$7&Fj]m7$Fh]
+m$\"*++?J$F-7$$\"++++WJF*F_^m7$Fb^mF\\\\lFe\\l-Fh[l6$7&Fd^m7$Fb^m$\"*+
+++!oF-7$$\"++++!=$F*Fi^m7$F\\_mF\\\\lFe\\l-Fh[l6$7&F^_m7$F\\_m$\"+++?N
+5F-7$$\"++++;KF*Fc_m7$Ff_mF\\\\lFe\\l-Fh[l6$7&Fh_m7$Ff_m$\"+++!oR\"F-7
+$$\"++++_KF*F]`m7$F``mF\\\\lFe\\l-Fh[l6$7&Fb`m7$F``m$\"+++![w\"F-7$$\"
+++++)G$F*Fg`m7$Fj`mF\\\\lFe\\l-Fh[l6$7&F\\am7$Fj`m$\"+++?R@F-7$$\"++++
+CLF*Faam7$FdamF\\\\lFe\\l-Fh[l6$7&Ffam7$Fdam$\"++++?DF-7$$\"++++gLF*F[
+bm7$F^bmF\\\\lFe\\l-Fh[l6$7&F`bm7$F^bm$\"+++?2HF-7$$\"++++'R$F*Febm7$F
+hbmF\\\\lFe\\l-Fh[l6$7&Fjbm7$Fhbm$\"+++!3I$F-7$$\"++++KMF*F_cm7$FbcmF
+\\\\lFe\\l-Fh[l6$7&Fdcm7$Fbcm$\"+++!3q$F-7$$\"++++oMF*Ficm7$F\\dmF\\\\
+lFe\\l-Fh[l6$7&F^dm7$F\\dm$\"+++?2TF-7$$\"++++/NF*Fcdm7$FfdmF\\\\lFe\\
+l-Fh[l6$7&Fhdm7$Ffdm$\"++++?XF-7$$\"++++SNF*F]em7$F`emF\\\\lFe\\l-Fh[l
+6$7&Fbem7$F`em$\"+++?R\\F-7$$\"++++wNF*Fgem7$FjemF\\\\lFe\\l-Fh[l6$7&F
+\\fm7$Fjem$\"+++![O&F-7$$\"++++7OF*Fafm7$FdfmF\\\\lFe\\l-Fh[l6$7&Fffm7
+$Fdfm$\"+++!oz&F-7$$\"++++[OF*F[gm7$F^gmF\\\\lFe\\l-Fh[l6$7&F`gm7$F^gm
+$\"+++?NiF-7$$\"++++%o$F*Fegm7$FhgmF\\\\lFe\\l-Fh[l6$7&Fjgm7$Fhgm$\"++
+++!o'F-7$$\"++++?PF*F_hm7$FbhmF\\\\lFe\\l-Fh[l6$7&Fdhm7$Fbhm$\"+++?JrF
+-7$$\"++++cPF*Fihm7$F\\imF\\\\lFe\\l-Fh[l6$7&F^im7$F\\im$\"+++!))e(F-7
+$$\"++++#z$F*Fcim7$FfimF\\\\lFe\\l-Fh[l6$7&Fhim7$Ffim$\"+++!G0)F-7$$\"
+++++GQF*F]jm7$F`jmF\\\\lFe\\l-Fh[l6$7&Fbjm7$F`jm$\"+++?B&)F-7$$\"++++k
+QF*Fgjm7$FjjmF\\\\lFe\\l-Fh[l6$7&F\\[n7$FjjmFfzFcz7$FdzF\\\\lFe\\l-%%T
+EXTG6$7$\"#I#\"$<\"\"#5%*right~sumG-F$6&7$7$$!$0\"Fj\\l$\"$0\"Fj\\l7$F
+_\\n$!$5\"Fj\\l7$7$Fd\\n!#57$Fa\\nFh\\n7$7$$\"$&>Fj\\lFa\\n7$F\\]nFd\\
+n7$7$$\"$!>Fj\\lFh\\n7$$\"$0%Fj\\lFh\\n-F$6*7$7$F-$!%D5!\"#7$F-$!%v5F
+\\^n7$7$F^[lFj]n7$F^[lF^^n7$7$$\"*++++*F*Fj]n7$Fe^nF^^n7$7$Fj]nF-7$F^^
+nF-7$7$Fj]n$!+++++]F-7$F^^nF]_n7$7$Fj]n$!+,+++5F-7$F^^nFb_n7$7$Fj]n$\"
+*++++$F*7$F^^nFg_n7$7$Fj]n$\"*++++(F*7$F^^nF\\`n-Fc[n6%7$$!$D*F\\^nF^^
+n%#1.G%+ALIGNBELOWG-Fc[n6%7$$!#DF\\^nF^^n%#2.GFe`n-Fc[n6%7$$\"*+++v)F*
+F^^n%#3.GFe`n-Fc[n6%7$F^^nFb`n%\"0G%*ALIGNLEFTG-Fc[n6%7$F^^n$!++++]_F-
+F[anFfan-Fc[n6%7$F^^n$!+,++]7F-%#4.GFfan-Fc[n6%7$F^^n$\"*+++v#F*%#6.GF
+fan-Fc[n6%7$F^^n$\"*+++v'F*%#8.GFfan-F$6*7$7$\"#@Fj]n7$FbcnF^^n7$7$Ff[
+nFj]n7$Ff[nF^^n7$7$FdzFj]n7$FdzF^^n7$7$$\"%v>F\\^nF-7$$\"%D>F\\^nF-7$7
+$F\\dnF]_n7$F_dnF]_n7$7$F\\dnFb_n7$F_dnFb_n7$7$F\\dnFg_n7$F_dnFg_n7$7$
+F\\dnF\\`n7$F_dnF\\`n-Fc[n6%7$$\"%v?F\\^nF^^nFd`nFe`n-Fc[n6%7$$\"%vHF
+\\^nF^^nF[anFe`n-Fc[n6%7$$\"++++vQF*F^^nFaanFe`n-Fc[n6%7$F_dnFb`nFeanF
+fan-Fc[n6%7$F_dnFjanF[anFfan-Fc[n6%7$F_dnF_bnFabnFfan-Fc[n6%7$F_dnFebn
+FgbnFfan-Fc[n6%7$F_dnF[cnF]cnFfan-F$6&7S7$F\\\\lF+7$$!+G7l2')F-F17$$!+
+`1Fm#)F-F67$$!*]_B)yF*F;7$$!*[*)e\\(F*F@7$$!*Ej76(F*FE7$$!*^lYv'F*FJ7$
+$!*@HaQ'F*FO7$$!*[kN+'F*FT7$$!*TCHi&F*FY7$$!*I*QJ_F*Fhn7$$!*(\\_')[F*F
+]o7$$!*T*G)\\%F*Fbo7$$!*sf%3TF*Fgo7$$!*e'yKPF*F\\p7$$!*QR;R$F*Fap7$$!*
+O#)f)HF*Ffp7$$!*mPBk#F*F[q7$$!*=(fUAF*F`q7$$!*6f())=F*Feq7$$!*oU0]\"F*
+Fjq7$$!*#)o38\"F*F_r7$$!)%H:X(F*Fdr7$$!)NX4RF*Fir7$$!'h%)))F*F^s7$$\")
+7pzQF*Fcs7$$\")YJMtF*Fhs7$$\"*CSl5\"F*F]t7$$\"*8)*>\\\"F*Fbt7$$\"*[$4p
+=F*Fgt7$$\"*g_RB#F*F\\u7$$\"*Zm!REF*Fau7$$\"*HzI+$F*Ffu7$$\"*oS<R$F*F[
+v7$$\"*mDRu$F*F`v7$$\"*(o&*GTF*Fev7$$\"*BT7\\%F*Fjv7$$\"*xK*p[F*F_w7$$
+\"*)H<S_F*Fdw7$$\"*:!yFcF*Fiw7$$\"*%>4,gF*F^x7$$\"*;dGQ'F*Fcx7$$\"*<h9
+w'F*Fhx7$$\"*$*e$4rF*F]y7$$\"*.*33vF*Fby7$$\"*)zrkyF*Fgy7$$\"*#)e\\C)F
+*F\\z7$$\"*%y*)3')F*Faz7$Fe^nFfzFhzF_[lFc[l-Fh[l6$7&7$F\\\\lF\\\\lF^gn
+7$$!++++S')F-F+7$Fb`oF\\\\lFe\\l-Fh[l6$7&Fd`o7$Fb`oF_\\l7$$!++++!G)F-F
+_\\l7$Fj`oF\\\\lFe\\l-Fh[l6$7&F\\ao7$Fj`oFa]l7$$!*+++#zF*Fa]l7$FbaoF\\
+\\lFe\\l-Fh[l6$7&Fdao7$FbaoF[^l7$$!*+++c(F*F[^l7$FjaoF\\\\lFe\\l-Fh[l6
+$7&F\\bo7$FjaoFe^l7$$!*+++?(F*Fe^l7$FbboF\\\\lFe\\l-Fh[l6$7&Fdbo7$Fbbo
+F__l7$$!*+++%oF*F__l7$FjboF\\\\lFe\\l-Fh[l6$7&F\\co7$FjboFi_l7$$!*+++[
+'F*Fi_l7$FbcoF\\\\lFe\\l-Fh[l6$7&Fdco7$FbcoFc`l7$$!*+++7'F*Fc`l7$FjcoF
+\\\\lFe\\l-Fh[l6$7&F\\do7$FjcoF]al7$$!*+++w&F*F]al7$FbdoF\\\\lFe\\l-Fh
+[l6$7&Fddo7$FbdoFgal7$$!*+++S&F*Fgal7$FjdoF\\\\lFe\\l-Fh[l6$7&F\\eo7$F
+jdoFabl7$$!*+++/&F*Fabl7$FbeoF\\\\lFe\\l-Fh[l6$7&Fdeo7$FbeoF[cl7$$!*++
++o%F*F[cl7$FjeoF\\\\lFe\\l-Fh[l6$7&F\\fo7$FjeoFecl7$$!*+++K%F*Fecl7$Fb
+foF\\\\lFe\\l-Fh[l6$7&Fdfo7$FbfoF_dl7$$!*+++'RF*F_dl7$FjfoF\\\\lFe\\l-
+Fh[l6$7&F\\go7$FjfoFidl7$$!*+++g$F*Fidl7$FbgoF\\\\lFe\\l-Fh[l6$7&Fdgo7
+$FbgoFcel7$$!*+++C$F*Fcel7$FjgoF\\\\lFe\\l-Fh[l6$7&F\\ho7$FjgoF]fl7$$!
+*+++)GF*F]fl7$FbhoF\\\\lFe\\l-Fh[l6$7&Fdho7$FbhoFgfl7$$!*+++_#F*Fgfl7$
+FjhoF\\\\lFe\\l-Fh[l6$7&F\\io7$FjhoFagl7$$!*+++;#F*Fagl7$FbioF\\\\lFe
+\\l-Fh[l6$7&Fdio7$FbioF[hl7$$!*+++!=F*F[hl7$FjioF\\\\lFe\\l-Fh[l6$7&F
+\\jo7$FjioFehl7$$!*+++W\"F*Fehl7$FbjoF\\\\lFe\\l-Fh[l6$7&Fdjo7$FbjoF_i
+l7$$!*+++3\"F*F_il7$FjjoF\\\\lFe\\l-Fh[l6$7&F\\[p7$FjjoFiil7$$!)+++sF*
+Fiil7$Fb[pF\\\\lFe\\l-Fh[l6$7&Fd[p7$Fb[pFcjl7$$!)+++OF*Fcjl7$Fj[pF\\\\
+lFe\\l-Fh[l6$7&F\\\\p7$Fj[pF][m7$F^[lF][m7$F^[lF\\\\lFe\\l-Fh[l6$7&Fb
+\\p7$F^[lFg[m7$$\")+++OF*Fg[m7$Fh\\pF\\\\lFe\\l-Fh[l6$7&Fj\\p7$Fh\\pFa
+\\m7$$\")+++sF*Fa\\m7$F`]pF\\\\lFe\\l-Fh[l6$7&Fb]p7$F`]pF[]m7$$\"*+++3
+\"F*F[]m7$Fh]pF\\\\lFe\\l-Fh[l6$7&Fj]p7$Fh]pFe]m7$$\"*+++W\"F*Fe]m7$F`
+^pF\\\\lFe\\l-Fh[l6$7&Fb^p7$F`^pF_^m7$$\"*+++!=F*F_^m7$Fh^pF\\\\lFe\\l
+-Fh[l6$7&Fj^p7$Fh^pFi^m7$$\"*+++;#F*Fi^m7$F`_pF\\\\lFe\\l-Fh[l6$7&Fb_p
+7$F`_pFc_m7$$\"*+++_#F*Fc_m7$Fh_pF\\\\lFe\\l-Fh[l6$7&Fj_p7$Fh_pF]`m7$$
+\"*+++)GF*F]`m7$F``pF\\\\lFe\\l-Fh[l6$7&Fb`p7$F``pFg`m7$$\"*+++C$F*Fg`
+m7$Fh`pF\\\\lFe\\l-Fh[l6$7&Fj`p7$Fh`pFaam7$$\"*+++g$F*Faam7$F`apF\\\\l
+Fe\\l-Fh[l6$7&Fbap7$F`apF[bm7$$\"*+++'RF*F[bm7$FhapF\\\\lFe\\l-Fh[l6$7
+&Fjap7$FhapFebm7$$\"*+++K%F*Febm7$F`bpF\\\\lFe\\l-Fh[l6$7&Fbbp7$F`bpF_
+cm7$$\"*+++o%F*F_cm7$FhbpF\\\\lFe\\l-Fh[l6$7&Fjbp7$FhbpFicm7$$\"*+++/&
+F*Ficm7$F`cpF\\\\lFe\\l-Fh[l6$7&Fbcp7$F`cpFcdm7$$\"*+++S&F*Fcdm7$FhcpF
+\\\\lFe\\l-Fh[l6$7&Fjcp7$FhcpF]em7$$\"*+++w&F*F]em7$F`dpF\\\\lFe\\l-Fh
+[l6$7&Fbdp7$F`dpFgem7$$\"*+++7'F*Fgem7$FhdpF\\\\lFe\\l-Fh[l6$7&Fjdp7$F
+hdpFafm7$$\"*+++['F*Fafm7$F`epF\\\\lFe\\l-Fh[l6$7&Fbep7$F`epF[gm7$$\"*
++++%oF*F[gm7$FhepF\\\\lFe\\l-Fh[l6$7&Fjep7$FhepFegm7$$\"*+++?(F*Fegm7$
+F`fpF\\\\lFe\\l-Fh[l6$7&Fbfp7$F`fpF_hm7$$\"*+++c(F*F_hm7$FhfpF\\\\lFe
+\\l-Fh[l6$7&Fjfp7$FhfpFihm7$$\"*+++#zF*Fihm7$F`gpF\\\\lFe\\l-Fh[l6$7&F
+bgp7$F`gpFcim7$$\"*+++G)F*Fcim7$FhgpF\\\\lFe\\l-Fh[l6$7&Fjgp7$FhgpF]jm
+7$$\"*+++k)F*F]jm7$F`hpF\\\\lFe\\l-Fh[l6$7&Fbhp7$F`hpFgjm7$Fe^nFgjm7$F
+e^nF\\\\lFe\\l-Fc[n6$7$F^[lFg[n%)left~sumG-%*AXESTICKSG6$\"\"$%(DEFAUL
+TG-%*AXESSTYLEG6#%%NONEG-%+AXESLABELSG6$%\"xG%!G" 2 540 333 333 2 0 1 
+0 2 9 0 1 2 1.000000 45.000000 45.000000 10030 10061 10056 10074 0 0 
+0 20040 0 12020 0 255 0 0 255 0 0 1 2 0 0 0 0 1 0 0 0 0 0 1 }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "Int(f(x),x=a..b);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#-%$IntG6$*$%\"xG\"\"#/F';%\"aG%\"bG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "value(\");" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&*$%\"bG\"\"$#\"\"\"F&*$%\"aGF&#!\"\"F&" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "int(f(x),x);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,$*$%\"xG\"\"$#\"\"\"F&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 31 "Int(sqrt(x^5+1)*exp(x),x=1..2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%$IntG6$*&,&*$%\"xG\"\"&\"\"\"F+F+#F+\"\"#-%$expG6#F)F
++/F);F+F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "value(\");" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$intG6$*&,&*$%\"xG\"\"&\"\"\"F+F+#F+
+\"\"#-%$expG6#F)F+/F);F+F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+9 "evalf(\");" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+*44)Q;!\")" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "A:=Int(1/sqrt(4+9*x^2),x);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%$IntG6$*$,&\"\"%\"\"\"*$%\"x
+G\"\"#\"\"*#!\"\"F.F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "eq
+:=3*x=2*tan(theta);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#eqG/,$%\"xG
+\"\"$,$-%$tanG6#%&thetaG\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 22 "changevar(eq,A,theta);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$Int
+G6$,$*&,&\"\"#\"\"\"*$-%$tanG6#%&thetaGF)F)F*,&\"\"%F*F+F1#!\"\"F)#F*
+\"\"$F/" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "At:=value(\");" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#AtG,$-%(arcsinhG6#-%$tanG6#%&thet
+aG#\"\"\"\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "convert(A
+t,ln);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$-%#lnG6#,&-%$tanG6#%&theta
+G\"\"\"*$,&F,F,*$F(\"\"#F,#F,F0F,#F,\"\"$" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 15 "diff(At,theta);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+,$*$,&\"\"\"F&*$-%$tanG6#%&thetaG\"\"#F&#F&F,#F&\"\"$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 14 "with(student):" }}{PARA 7 "" 1 "" {TEXT -1 29 "Warn
+ing, new definition for D" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+19 "A:=Int(x*sin(x),x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%$In
+tG6$*&%\"xG\"\"\"-%$sinG6#F)F*F)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "value(A);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&-%$sinG
+6#%\"xG\"\"\"*&F'F(-%$cosGF&F(!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "Int(u*dv)=uv - Int(v*du);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/-%$IntG6#*&%\"uG\"\"\"%#dvGF),&%#uvGF)-F%6#*&%\"vGF)%#
+duGF)!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "intparts(A,x)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&%\"xG\"\"\"-%$cosG6#F%F&!\"\"
+-%$IntG6$,$F'F*F%F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "value
+(\");" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&%\"xG\"\"\"-%$cosG6#F%F&!
+\"\"-%$sinGF)F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "B:=Int(x
+^2*sin(x),x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"BG-%$IntG6$*&-%$s
+inG6#%\"xG\"\"\"F,\"\"#F," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+20 "B1:=intparts(B,x^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#B1G,&*&
+%\"xG\"\"#-%$cosG6#F'\"\"\"!\"\"-%$IntG6$,$*&F'F,F)F,!\"#F'F-" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "B2:=intparts(B1,x);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#B2G,(*&%\"xG\"\"#-%$cosG6#F'\"\"\"!
+\"\"*&F'F,-%$sinGF+F,F(-%$IntG6$,$F/!\"#F'F," }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 9 "value(\");" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*
+&%\"xG\"\"#-%$cosG6#F%\"\"\"!\"\"*&F%F*-%$sinGF)F*F&F'F&" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "f:=(x^2-3*x+1)/(x^3+x^2-2*x);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG*&,(*$%\"xG\"\"#\"\"\"F(!\"$F*F*
+F*,(*$F(\"\"$F*F'F*F(!\"#!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 27 "fpar:=convert(f,parfrac,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>%%fparG,(*$%\"xG!\"\"#F(\"\"#*$,&F'\"\"\"F*F-F(#\"#6\"\"'*$,&F'F-F(F
+-F(#F(\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "Int(fpar,x);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$IntG6$,(*$%\"xG!\"\"#F)\"\"#*$,
+&F(\"\"\"F+F.F)#\"#6\"\"'*$,&F(F.F)F.F)#F)\"\"$F(" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 9 "value(\");" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#,(-%#lnG6#%\"xG#!\"\"\"\"#-F%6#,&F'\"\"\"F*F.#\"#6\"\"'-F%6#,&F'F.F)F
+.#F)\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "with(student):
+" }}{PARA 7 "" 1 "" {TEXT -1 29 "Warning, new definition for D" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "f:=x->sin(x^2+1);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"fG:6#%\"xG6\"6$%)operatorG%&arrowGF(-%$s
+inG6#,&*$9$\"\"#\"\"\"F3F3F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 12 "Int(f(x),x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$IntG6$-%$si
+nG6#,&*$%\"xG\"\"#\"\"\"F-F-F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 9 "value(\");" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*(\"\"##\"\"\"F
+%%#PiGF&,&*&-%$cosG6#F'F'-%)FresnelSG6#*(F%F&F(#!\"\"F%%\"xGF'F'F'*&-%
+$sinGF-F'-%)FresnelCGF0F'F'F'F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 25 "leftsum(f(x),x=0..Pi,10);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,
+$*&%#PiG\"\"\"-%$SumG6$-%$sinG6#,&*&%\"iG\"\"#F%F0#F&\"$+\"F&F&/F/;\"
+\"!\"\"*F&#F&\"#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "l:=eva
+lf(\");" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"lG$\"+h!RQ<\"!\"*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "rightsum(f(x),x=0..Pi,10);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&%#PiG\"\"\"-%$SumG6$-%$sinG6#,&*
+&%\"iG\"\"#F%F0#F&\"$+\"F&F&/F/;F&\"#5F&#F&F5" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 12 "r:=evalf(\");" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>%\"rG$\"+'*>8yf!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "mid
+dlesum(f(x),x=0..Pi,10);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&%#PiG
+\"\"\"-%$SumG6$-%$sinG6#,&*&,&%\"iGF&#F&\"\"#F&F2F%F2#F&\"$+\"F&F&/F0;
+\"\"!\"\"*F&#F&\"#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "m:=e
+valf(\");" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"mG$\"+\\llx*)!#5" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "trapezoid(f(x),x=0..Pi,10);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&%#PiG\"\"\",(-%$sinG6#F&F&-%$S
+umG6$-F)6#,&*&%\"iG\"\"#F%F3#F&\"$+\"F&F&/F2;F&\"\"*F3-F)6#,&*$F%F3F&F
+&F&F&F&#F&\"#?" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "t:=evalf(
+\");" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"tG$\"+08Ee))!#5" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "simpson(f(x),x=0..Pi,10);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&%#PiG\"\"\",*-%$sinG6#F&F&-F)6#,&
+*$F%\"\"#F&F&F&F&-%$SumG6$-F)6#,&*&,&%\"iGF/!\"\"F&F/F%F/#F&\"$+\"F&F&
+/F8;F&\"\"&\"\"%-F16$-F)6#,&*&F8F/F%F/#F&\"#DF&F&/F8;F&F?F/F&#F&\"#I" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "s:=evalf(\");" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"sG$\"+#G`&e!*!#5" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 18 "Int(f(x),x=0..Pi);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%$IntG6$-%$sinG6#,&*$%\"xG\"\"#\"\"\"F-F-/F+;\"\"!%#Pi
+G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "i:=evalf(\");" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"iG$\"++=![$*)!#5" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 4 "s-i;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$
+\"*#[^P7!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "f:=-0.128*x^
+3+1.728*x^2-5.376*x+2.864;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG,*
+*$%\"xG\"\"$$!$G\"!\"$*$F'\"\"#$\"%G<F+F'$!%w`F+$\"%kGF+\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "plot(f,x=-2..10,thickness=3)
+;" }}{PARA 13 "" 1 "" {INLPLOT "6&-%'CURVESG6$7W7$$!\"#\"\"!$\"1+++++?
+b@!#97$$!1+++vq@p=!#:$\"1&RDMDY'y>F-7$$!1+++]TVQ<F1$\"1i\"HP6f/\"=F-7$
+$!1++DE1kC;F1$\"1<6DmNzq;F-7$$!1++]-r%3^\"F1$\"1o:,b)=s`\"F-7$$!1++v$Q
+uGQ\"F1$\"1%Q24&e8%R\"F-7$$!1+++l;!\\D\"F1$\"1\\G!31_%e7F-7$$!1+++g13E
+6F1$\"1ylw&*)y\"H6F-7$$!1******\\lfs**!#;$\"1M!*y$3wq+\"F-7$$!1,++D<U3
+uFU$\"1cU*[J@s%yF17$$!1,++DM5J]FU$\"1SSPWITAgF17$$!1,++D!G&pDFU$\"1'p4
+FdS;O%F17$$!1s*****\\AjP#!#=$\"1=dLp[ywGF17$$\"1*****\\FPQ^#FU$\"1-U^O
+ls>;F17$$\"1-+++82C^FU$\"1<l]y!RyX&FU7$$\"1+++]o;BuFU$!1m][*))\\'oAFU7
+$$\"1+++!RS6+\"F1$!1Q9#*3rDY\"*FU7$$\"1+++]o-h7F1$!1'HD\"*))3TU\"F17$$
+\"1+++5cZ6:F1$!1^\"[6tmfv\"F17$$\"1++]xq!*Q<F1$!1EUW[!zA$>F17$$\"1+++!
+4X$4?F1$!1\"o$)pE;***>F17$$\"1+++g:WQAF1$!1NYrA]:Z>F17$$\"1++]<_$\\]#F
+1$!1$fs<G<<x\"F17$$\"1+++gs#3u#F1$!1#RcMzq^_\"F17$$\"1++]<#Q'**HF1$!1r
+K_Acbo6F17$$\"1++]_u3YKF1$!1KB!)*H_.d(FU7$$\"1+++v8B.NF1$!1TotEa\"[l#F
+U7$$\"1++]n(p$RPF1$\"1p(*30F;3BFU7$$\"1+++Dp2%*RF1$\"1F6*p(**fB!)FU7$$
+\"1++]xgkeUF1$\"1lh&Q<]DU\"F17$$\"1++]-V&*)[%F1$\"1:,])\\!\\t>F17$$\"1
++++&\\$pPZF1$\"1<G[VauoDF17$$\"1+++?am%*\\F1$\"1!*[A$o.<<$F17$$\"1+++:
+B1Y_F1$\"1x/BQcRPPF17$$\"1++]P<I*[&F1$\"1Vgk4&)Q]UF17$$\"1+++XwPfdF1$
+\"1)eLTWPow%F17$$\"1******fG0-gF1$\"1_PXk2:r^F17$$\"1+++]/;hiF1$\"1!ou
+9^wv_&F17$$\"1****\\P/&f\\'F1$\"1a<5#f)[sdF17$$\"1,++5zj_nF1$\"1bmSso>
+VfF17$$\"1****\\<3;%*pF1$\"1IPF$Hn***fF17$$\"1++]Z=iYsF1$\"1NI\"Ga!pRf
+F17$$\"1******\\'[M\\(F1$\"1\"[Ov\")o3v&F17$$\"1****\\PM&=v(F1$\"1us^>
+k#HS&F17$$\"1,++gzs+!)F1$\"1'Q!*y1A.\"\\F17$$\"1+++0\"Q_D)F1$\"1rADchC
+MUF17$$\"1,+]x2k2&)F1$\"1Hs)z>.$zLF17$$\"1,++?EdR()F1$\"1'yGIH@6U#F17$
+$\"1+++&o#R0!*F1$\"1%R4Llep5\"F17$$\"1+++?`9V#*F1$!1z]\")o%z9v#FU7$$\"
+1++]<#Rm\\*F1$!1!\\qs/Ce(>F17$$\"1++]A_ER(*F1$!1.PEP(yV$QF17$$\"#5F*$!
+1%**********f4'F1-%'COLOURG6&%$RGBG$F\\\\l!\"\"F*F*-%+AXESLABELSG6$%\"
+xG%!G-%*THICKNESSG6#\"\"$-%%VIEWG6$;F(F[\\l%(DEFAULTG" 2 313 213 213 
+2 0 1 3 2 9 0 4 2 1.000000 45.000000 45.000000 10030 10061 10056 
+10073 0 0 0 20030 0 12020 0 0 0 0 0 0 0 1 1 0 0 0 11581 11824 0 0 0 0 
+0 1 }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "A:=fsolve(f=0,x);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG6%$\"+Wyx(p'!#5$\"+7\"f<j$!\"*$
+\"+/JY)>*F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "a:=A[1];" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aG$\"+Wyx(p'!#5" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 8 "b:=A[2];" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%\"bG$\"+7\"f<j$!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "c
+:=A[3];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"cG$\"+/JY)>*!\"*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "-Int(f,x=a..b)+Int(f,x=b..c)
+;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,&-%$IntG6$,**$%\"xG\"\"$$!$G\"!
+\"$*$F)\"\"#$\"%G<F-F)$!%w`F-$\"%kGF-\"\"\"/F);$\"+Wyx(p'!#5$\"+7\"f<j
+$!\"*!\"\"-F%6$F'/F);F<$\"+/JY)>*F>F6" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "A:=value(\");" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"
+AG$\"+-o,0D!\")" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{MARK "58 0 0" 0 }{VIEWOPTS 1 1 0 2 1 1805 }
